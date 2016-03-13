@@ -1,0 +1,68 @@
+2016-03-13 02:46:48 [2693] [INFO] Starting gunicorn 19.0.0
+2016-03-13 02:46:48 [2693] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:46:48 [2693] [ERROR] Retrying in 1 second.
+2016-03-13 02:46:49 [2693] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:46:49 [2693] [ERROR] Retrying in 1 second.
+2016-03-13 02:46:50 [2693] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:46:50 [2693] [ERROR] Retrying in 1 second.
+2016-03-13 02:46:51 [2693] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:46:51 [2693] [ERROR] Retrying in 1 second.
+2016-03-13 02:46:52 [2693] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:46:52 [2693] [ERROR] Retrying in 1 second.
+2016-03-13 02:46:53 [2693] [ERROR] Can't connect to ('127.0.0.1', 8080)
+2016-03-13 02:50:29 [3087] [INFO] Starting gunicorn 19.0.0
+2016-03-13 02:50:29 [3087] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:50:29 [3087] [ERROR] Retrying in 1 second.
+2016-03-13 02:50:30 [3087] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:50:30 [3087] [ERROR] Retrying in 1 second.
+2016-03-13 02:50:31 [3087] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:50:31 [3087] [ERROR] Retrying in 1 second.
+2016-03-13 02:50:32 [3087] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:50:32 [3087] [ERROR] Retrying in 1 second.
+2016-03-13 02:50:33 [3087] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 02:50:33 [3087] [ERROR] Retrying in 1 second.
+2016-03-13 02:50:34 [3087] [ERROR] Can't connect to ('127.0.0.1', 8080)
+2016-03-13 03:03:23 [3270] [INFO] Starting gunicorn 19.0.0
+2016-03-13 03:03:23 [3270] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 03:03:23 [3270] [ERROR] Retrying in 1 second.
+2016-03-13 03:03:24 [3270] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 03:03:24 [3270] [ERROR] Retrying in 1 second.
+2016-03-13 03:03:25 [3270] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 03:03:25 [3270] [ERROR] Retrying in 1 second.
+2016-03-13 03:03:26 [3270] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 03:03:26 [3270] [ERROR] Retrying in 1 second.
+2016-03-13 03:03:27 [3270] [ERROR] Connection in use: ('127.0.0.1', 8080)
+2016-03-13 03:03:27 [3270] [ERROR] Retrying in 1 second.
+2016-03-13 03:03:28 [3270] [ERROR] Can't connect to ('127.0.0.1', 8080)
+2016-03-13 03:03:57 [2428] [INFO] Listening at: [,<,g,u,n,i,c,o,r,n,.,s,o,c,k,.,T,C,P,S,o,c,k,e,t, ,o,b,j,e,c,t, ,a,t, ,0,x,7,f,8,3,1,f,3,2,9,2,d,0,>,]
+2016-03-13 03:03:57 [2428] [INFO] Handling signal: term
+2016-03-13 03:03:57 [3296] [INFO] Booting worker with pid: 3296
+2016-03-13 03:03:57 [3296] [INFO] Worker exiting (pid: 3296)
+2016-03-13 03:03:57 [2428] [INFO] Shutting down: Master
+2016-03-13 03:06:44 [1553] [INFO] Starting gunicorn 19.0.0
+2016-03-13 03:06:44 [1553] [INFO] Listening at: http://127.0.0.1:8080 (1553)
+2016-03-13 03:06:44 [1553] [INFO] Using worker: sync
+2016-03-13 03:06:44 [1558] [INFO] Booting worker with pid: 1558
+2016-03-13 03:34:11 [2185] [INFO] Booting worker with pid: 2185
+2016-03-13 03:34:11 [1553] [INFO] Handling signal: hup
+2016-03-13 03:34:11 [1553] [INFO] Hang up: Master
+2016-03-13 03:34:12 [1553] [INFO] Unhandled exception in main loop:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 189, in run
+    handler()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 220, in handle_hup
+    self.reload()
+  File "/usr/lib/python2.7/dist-packages/gunicorn/arbiter.py", line 409, in reload
+    self.pidfile.create(self.pid)
+  File "/usr/lib/python2.7/dist-packages/gunicorn/pidfile.py", line 35, in create
+    raise RuntimeError("%s doesn't exist. Can't create pidfile." % fdir)
+RuntimeError: /home/n0rd/box/web/pid doesn't exist. Can't create pidfile.
+
+2016-03-13 03:34:13 [2185] [INFO] Worker exiting (pid: 2185)
+2016-03-13 03:37:28 [1605] [INFO] Starting gunicorn 19.0.0
+2016-03-13 03:37:28 [1605] [INFO] Listening at: http://127.0.0.1:8080 (1605)
+2016-03-13 03:37:28 [1605] [INFO] Using worker: sync
+2016-03-13 03:37:28 [1610] [INFO] Booting worker with pid: 1610
+2016-03-13 03:44:19 [1605] [INFO] Handling signal: term
+2016-03-13 03:44:19 [1610] [INFO] Worker exiting (pid: 1610)
+2016-03-13 03:44:19 [1605] [INFO] Shutting down: Master

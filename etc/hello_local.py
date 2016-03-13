@@ -1,0 +1,6 @@
+bind='127.0.0.1:8080'
+accesslog='/home/n0rd/box/web/log/gunicorn_access.log'
+errorlog='/home/n0rd/box/web/log/gunicorn_error.log'
+pythonpath='/usr/bin/python3'
+pidfile='/home/n0rd/box/web/pid/gupid.pid'
+
