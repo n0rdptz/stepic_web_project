@@ -1,0 +1,11 @@
+2016-03-15 22:07:22 [132] [INFO] Starting gunicorn 17.5
+2016-03-15 22:07:22 [132] [INFO] Listening at: http://0.0.0.0:8000 (132)
+2016-03-15 22:07:22 [132] [INFO] Using worker: sync
+2016-03-15 22:07:22 [137] [INFO] Booting worker with pid: 137
+2016-03-15 22:12:34 [132] [INFO] Handling signal: term
+2016-03-15 22:12:34 [137] [INFO] Worker exiting (pid: 137)
+2016-03-15 22:12:34 [132] [INFO] Shutting down: Master
+2016-03-15 22:12:46 [184] [INFO] Starting gunicorn 17.5
+2016-03-15 22:12:46 [184] [INFO] Listening at: http://0.0.0.0:8000 (184)
+2016-03-15 22:12:46 [184] [INFO] Using worker: sync
+2016-03-15 22:12:46 [189] [INFO] Booting worker with pid: 189
